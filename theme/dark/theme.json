@@ -1,0 +1,216 @@
+{
+    "font_name": "Segoe UI",
+    "font_size": 14,
+    "font_color": [179, 179, 179, 255],
+    "gui_color": [255, 255, 255, 255],
+    "highlight_color": [255, 255, 255, 255],
+    "button": {
+        "highlight": {
+            "image": {
+                "source": "button_hover.png",
+                "frame": [6, 6, 6, 6],
+                "padding": [10, 10, 10, 10]
+            }
+        },
+        "down": {
+            "image": {
+                "source": "button_down.png",
+                "frame": [6, 6, 6, 6],
+                "padding": [10, 10, 10, 10]
+            },
+            "font_color": [36, 36, 36, 255]
+        },
+        "up": {
+            "image": {
+                "source": "button_up.png",
+                "frame": [6, 6, 6, 6],
+                "padding": [10, 10, 10, 10]
+            }
+        }
+    },
+    "frame": {
+        "image": {
+            "source": "dialog.png",
+            "frame": [6, 6, 6, 6],
+            "padding": [18, 18, 18, 18]
+        }
+    },
+    "dropdown": {
+        "pulldown": {
+            "image": {
+                "source": "dialog.png",
+                "frame": [6, 6, 6, 6],
+                "padding": [4, 4, 4, 4]
+            }
+        },
+        "image": {
+            "source": "button_up.png",
+            "frame": [6, 6, 6, 6],
+            "padding": [10, 10, 10, 10]
+        },
+        "highlight": {
+            "image": {
+               "source": "button_hover.png",
+               "frame": [6, 6, 6, 6],
+                "padding": [10, 10, 10, 10]
+           }
+       }
+    },
+    "checkbox": {
+        "checked": {
+            "image": {
+               "source": "checkbox_checked.png",
+               "frame": [4, 4, 4, 4]
+           }
+       },
+       "unchecked": {
+            "image": {
+               "source": "checkbox.png",
+               "frame": [4, 4, 4, 4]
+           }
+       }
+   },
+    "input": {
+       "image": {
+           "source": "input_normal.png",
+           "frame": [6, 6, 6, 6]
+       },
+       "highlight": {
+           "image": {
+               "source": "input_highlight.png",
+                "frame": [8, 8, 8, 8]
+           }
+       }
+    },
+    "vscrollbar": {
+        "knob": {
+            "image": {
+                "source": "checkbox.png",
+               "frame": [4, 4, 4, 4]
+            }
+        },
+        "bar": {
+            "image": {
+                "source": "button_hover.png",
+                "frame": [6, 6, 6, 6],
+                "padding": [10, 10, 10, 10]
+            }
+        }
+    },
+    "hscrollbar": {
+        "knob": {
+            "image": {
+                "source": "checkbox.png",
+               "frame": [4, 4, 4, 4]
+            }
+        },
+        "bar": {
+            "image": {
+                "source": "button_hover.png",
+                "frame": [6, 6, 6, 6],
+                "padding": [10, 10, 10, 10]
+            }
+        }
+    },
+    "bag": {
+        "down": {
+            "image": {
+                "source": "bag.png"
+            }
+        },
+        "up": {
+            "image": {
+                "source": "bag.png"
+            }
+        },
+        "highlight": {
+            "image": {
+                "source": "baghighlighted.png"
+            }
+        }
+    },
+    "outline": {
+        "normal": {
+            "image": {
+                "source": "outline.png",
+                "frame": [6, 6, 6, 6]
+            }
+        },
+        "highlight": {
+            "image": {
+                "source": "input_normal.png",
+                "frame": [6, 6, 6, 6]
+            },
+            "highlight_color": [255, 255, 255, 128]
+        }
+    },
+    "close": {
+        "up": {
+            "image": {
+                "source": "close_up.png",
+                "frame": [4, 4, 4, 4]
+            }
+        },
+        "down": {
+            "image": {
+                "source": "close_down.png",
+                "frame": [4, 4, 4, 4]
+            }
+        }
+    },
+    "titlebar": {
+        "frame": {
+            "image": {
+                "source": "titlepanel.png",
+                "region": [0, 0, 128, 26],
+                "frame": [0, 6, 6, 6],
+                "padding": [0, 6, 6, 6]
+            }
+        },
+        "left": {
+            "image": {
+                "source": "titlepanel.png",
+                "region": [0, 26, 34, 40],
+                "frame": [6, 0, 14, 6]
+            }
+        },
+        "center": {
+            "image": {
+                "source": "titlepanel.png",
+                "region": [34, 26, 54, 40],
+                "frame": [6, 0, 14, 6],
+                "padding": [6, 0, 14, 6]
+            }
+        },
+        "right": {
+            "image": {
+                "source": "titlepanel.png",
+                "region": [88, 26, 40, 40],
+                "frame": [6, 6, 14, 14]
+            }
+        }
+    },
+     "slider": {
+       "knob": {
+           "image": {
+               "source": "slider-knob.png"
+           },
+           "offset": [-5, -11]
+       },
+       "padding": [8, 8, 8, 8],
+       "step": {
+           "image": {
+               "source": "slider-step.png"
+           },
+           "gui_color": [255, 255, 255, 100],
+           "offset": [-2, -8]
+       },
+       "bar": {
+           "image": {
+                "source": "button_up.png",
+                "frame": [6, 6, 6, 6],
+                "padding": [10, 10, 10, 10]
+            }
+       }
+   }
+}
